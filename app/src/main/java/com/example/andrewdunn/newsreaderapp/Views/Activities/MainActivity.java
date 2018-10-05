@@ -1,4 +1,4 @@
-package com.example.andrewdunn.newsreaderapp;
+package com.example.andrewdunn.newsreaderapp.Views.Activities;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -6,12 +6,14 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteStatement;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.example.andrewdunn.newsreaderapp.R;
+import com.example.andrewdunn.newsreaderapp.Views.Activities.ArticleActivity;
 
 import org.json.JSONArray;
 import org.json.JSONException;
