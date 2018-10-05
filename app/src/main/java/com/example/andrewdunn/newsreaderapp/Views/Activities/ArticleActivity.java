@@ -1,10 +1,12 @@
-package com.example.andrewdunn.newsreaderapp;
+package com.example.andrewdunn.newsreaderapp.Views.Activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import com.example.andrewdunn.newsreaderapp.R;
 
 public class ArticleActivity extends AppCompatActivity {
 
